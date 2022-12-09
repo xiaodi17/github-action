@@ -45,14 +45,14 @@ repository:
   allow_rebase_merge: true
 
 
-branches:
-  - name: production
-    protection:
-      required_pull_request_reviews: null
-      required_status_checks: null
-      restrictions: null
-  - name: staging
-    protection:
-      required_pull_request_reviews: null
-      required_status_checks: null
-      restrictions: null
+# branches:
+#   - name: production
+#     protection:
+#       required_pull_request_reviews: null
+#       required_status_checks: null
+#       restrictions: null
+#   - name: staging
+#     protection:
+#       required_pull_request_reviews: null
+#       required_status_checks: null
+#       restrictions: null
